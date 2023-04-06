@@ -52,7 +52,7 @@ function countDown(){
     const endMessage = document.createElement('h1')
     endMessage.innerHTML = "Game Over"
     // alert('game over')
-    if (result >= 8){
+    if (result >= 12){
       document.body.appendChild(endMessage)
       const img = document.createElement('img')
       const images = ['1.png', '2.png', '3.png', '4.png']
